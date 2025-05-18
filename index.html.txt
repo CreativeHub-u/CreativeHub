@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CreativeHub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Brush Script MT', cursive;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ffb6c1, #87ceeb, #ffd580);
+      text-align: center;
+      padding: 60px 20px;
+      color: #fff;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+    }
+
+    .cta-button {
+      background: white;
+      color: #ff69b4;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      border: none;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #ffe4e1;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    img, video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+
+    .text-content {
+      background-color: #fff4f0;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .upload-section {
+      margin-top: 40px;
+      background: #fdf0e0;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .upload-section input,
+    .upload-section button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CreativeHub</h1>
+    <p>Welcome to your creative space! Share ideas, visuals, and stories beautifully.</p>
+    <a href="mailto:mohammadmoazzam753@gmail.com" class="cta-button">Contact Me</a>
+  </header>
+
+  <section>
+    <h2>Gallery</h2>
+    <img src="https://via.placeholder.com/600x300?text=Creative+Image+Here" alt="Creative Image">
+
+    <video controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="text-content">
+      <h3>My Creative Story</h3>
+      <p>
+        Welcome to my world of creativity! At CreativeHub, we believe in sharing not just visuals,
+        but also thoughts and ideas. Whether you're into art, photography, design, or storytelling—
+        this is your space to shine and be inspired.
+      </p>
+    </div>
+  </section>
+
+  <section class="upload-section">
+    <h2>Upload Content (Owner Only)</h2>
+    <p><i>Note: This is a placeholder. To make this secure, connect it to a backend later.</i></p>
+    <input type="password" placeholder="Enter Admin Password" />
+    <input type="file" />
+    <button disabled>Upload (Mock Only)</button>
+  </section>
+
+  <footer>
+    &copy; 2025 CreativeHub | Built by Mohammad Moazzam | Hosted on GitHub Pages
+  </footer>
+
+</body>
+</html>
